@@ -1,0 +1,263 @@
+
+{
+   "objectIdFieldName": "OBJECTID",
+   "uniqueIdField": {
+      "name": "OBJECTID",
+      "isSystemMaintained": true
+   },
+   "globalIdFieldName": "",
+   "geometryType": "esriGeometryPoint",
+   "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+   },
+   "fields": [
+      {
+         "name": "OBJECTID",
+         "type": "esriFieldTypeOID",
+         "alias": "OBJECTID",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Province_State",
+         "type": "esriFieldTypeString",
+         "alias": "Province/State",
+         "sqlType": "sqlTypeOther",
+         "length": 8000,
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Country_Region",
+         "type": "esriFieldTypeString",
+         "alias": "Country/Region",
+         "sqlType": "sqlTypeOther",
+         "length": 8000,
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Last_Update",
+         "type": "esriFieldTypeDate",
+         "alias": "Last Update",
+         "sqlType": "sqlTypeOther",
+         "length": 8,
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Lat",
+         "type": "esriFieldTypeDouble",
+         "alias": "Lat",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Long_",
+         "type": "esriFieldTypeDouble",
+         "alias": "Long",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Confirmed",
+         "type": "esriFieldTypeInteger",
+         "alias": "Confirmed",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Recovered",
+         "type": "esriFieldTypeInteger",
+         "alias": "Recovered",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      },
+      {
+         "name": "Deaths",
+         "type": "esriFieldTypeInteger",
+         "alias": "Deaths",
+         "sqlType": "sqlTypeOther",
+         "domain": null,
+         "defaultValue": null
+      }
+   ],
+   "features": [
+      {
+         "attributes": {
+            "OBJECTID": 14,
+            "Province_State": "French Guiana",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 4,
+            "Long_": -53,
+            "Confirmed": 28,
+            "Recovered": 6,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": -52.99999999999994,
+            "y": 4.000000000000057
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 15,
+            "Province_State": "French Polynesia",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": -17.6797,
+            "Long_": -149.4068,
+            "Confirmed": 30,
+            "Recovered": 0,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": -149.40679999999998,
+            "y": -17.67969999999997
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 21,
+            "Province_State": "Guadeloupe",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 16.265,
+            "Long_": -61.551,
+            "Confirmed": 73,
+            "Recovered": 0,
+            "Deaths": 1
+         },
+         "geometry": {
+            "x": -61.55099999999999,
+            "y": 16.265000000000043
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 40,
+            "Province_State": "Martinique",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 14.6415,
+            "Long_": -61.0242,
+            "Confirmed": 81,
+            "Recovered": 0,
+            "Deaths": 1
+         },
+         "geometry": {
+            "x": -61.02419999999995,
+            "y": 14.641500000000065
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 41,
+            "Province_State": "Mayotte",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": -12.8275,
+            "Long_": 45.166244,
+            "Confirmed": 50,
+            "Recovered": 0,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": 45.16624400000006,
+            "y": -12.82749999999993
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 44,
+            "Province_State": "New Caledonia",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": -20.904305,
+            "Long_": 165.618042,
+            "Confirmed": 15,
+            "Recovered": 0,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": 165.61804200000006,
+            "y": -20.904304999999965
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 57,
+            "Province_State": "Reunion",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": -21.1151,
+            "Long_": 55.5364,
+            "Confirmed": 145,
+            "Recovered": 1,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": 55.53640000000007,
+            "y": -21.115099999999927
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 58,
+            "Province_State": "Saint Barthelemy",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 17.9,
+            "Long_": -62.8333,
+            "Confirmed": 3,
+            "Recovered": 0,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": -62.83329999999995,
+            "y": 17.900000000000034
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 67,
+            "Province_State": "St Martin",
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 18.0708,
+            "Long_": -63.0501,
+            "Confirmed": 11,
+            "Recovered": 0,
+            "Deaths": 0
+         },
+         "geometry": {
+            "x": -63.050099999999986,
+            "y": 18.070800000000077
+         }
+      },
+      {
+         "attributes": {
+            "OBJECTID": 133,
+            "Province_State": null,
+            "Country_Region": "France",
+            "Last_Update": 1585326750000,
+            "Lat": 46.2276,
+            "Long_": 2.2137,
+            "Confirmed": 29155,
+            "Recovered": 4948,
+            "Deaths": 1696
+         },
+         "geometry": {
+            "x": 2.213700000000074,
+            "y": 46.22760000000005
+         }
+      }
+   ]
+}
